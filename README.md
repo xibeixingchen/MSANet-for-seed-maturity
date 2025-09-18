@@ -79,7 +79,7 @@ Required packages include:
 - numpy>=1.21.0
 - scikit-learn>=1.0.0
 - opencv-python>=4.5.0
-- videometer>=1.0.0 (for VideometerLab data)
+- videometer>=0.0.28 ([for VideometerLab data](https://github.com/Videometer/videometer-toolbox-python))
 
 ## Data Preparation
 
