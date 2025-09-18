@@ -188,52 +188,11 @@ results/
 └── msanet_training.log       # Detailed training logs
 ```
 
-### Evaluation Metrics
 
-MSANet provides comprehensive evaluation using multiple classification metrics:
-
-- **Accuracy Metrics**: Overall accuracy, balanced accuracy
-- **Per-class Metrics**: Precision, recall, F1-score (weighted and macro averages)
-- **Statistical Metrics**: Cohen's kappa coefficient, Matthews correlation coefficient
-- **Confusion Analysis**: Per-class confusion matrix with visualization
-
-## Applications
-
-MSANet has been developed and validated for:
-
-- **Agricultural Monitoring**: Crop health assessment, maturity evaluation
-- **Seed Quality Analysis**: Automated seed grading and classification  
-- **Climate-resilient Agriculture**: Performance under varying environmental conditions
-- **Quality Control**: Industrial inspection of agricultural products
-
-## Citation
-
-If you use MSANet in your research, please cite:
-
-```bibtex
-@article{msanet2024,
-  title={Climate-Resilient Evaluation of Alfalfa Seed Maturity Using an Earth Mover's Distance-Guided Multispectral Imaging Framework},
-  author={Zhicheng Jia},
-  journal={Under Peer Review},
-  year={2024},
-  note={Manuscript under review}
-}
-```
 
 ## License
 
 This project is licensed under the MIT License. See LICENSE file for details.
 
-## Contributing
 
-Contributions are welcome through issues and pull requests. Please ensure code follows the existing style and includes appropriate tests.
-
-## Acknowledgments
-
-This research was conducted as part of climate-resilient agricultural monitoring systems development. MSANet represents advances in integrating attention mechanisms with 3D convolutional networks for enhanced multispectral data analysis in agricultural applications.
-
-## Contact
-
-
-For questions regarding MSANet implementation or agricultural applications, please open an issue on this repository.
 
