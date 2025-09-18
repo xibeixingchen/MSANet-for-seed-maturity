@@ -33,12 +33,12 @@ python main.py --data-path data/multispectral_data.npz --num-bands 19 --num-clas
 MSANet/
 ├── assets/                     # Documentation assets
 │   ├── msanet_architecture.png
-│   └── results/
 ├── models/                     # Core model implementations
 │   ├── __init__.py
 │   ├── attention.py           # Attention mechanisms
 │   ├── backbone.py            # 3D CNN backbone
 │   └── spectral_net.py        # MSANet architecture
+│   └── best_model.pt          # model weights
 ├── data/                      # Data handling
 │   ├── __init__.py
 │   ├── dataset.py             # Dataset classes
@@ -52,8 +52,6 @@ MSANet/
 │   ├── metrics.py             # Evaluation metrics
 │   ├── visualization.py       # Plotting and visualization
 │   └── logger.py              # Logging utilities
-├── scripts/                   # Data processing scripts
-│   └── preprocess_videometer_data.py
 ├── main.py                    # Main training script
 ├── requirements.txt
 └── README.md
@@ -238,3 +236,4 @@ This research was conducted as part of climate-resilient agricultural monitoring
 
 
 For questions regarding MSANet implementation or agricultural applications, please open an issue on this repository.
+
