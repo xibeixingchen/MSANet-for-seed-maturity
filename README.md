@@ -17,7 +17,7 @@ MSANet is a specialized deep learning framework designed for multispectral data 
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/MSANet.git
+git clone https://github.com/xibeixingchen/MSANet-for-seed-maturity.git
 cd MSANet
 
 # Install dependencies
@@ -235,5 +235,6 @@ Contributions are welcome through issues and pull requests. Please ensure code f
 This research was conducted as part of climate-resilient agricultural monitoring systems development. MSANet represents advances in integrating attention mechanisms with 3D convolutional networks for enhanced multispectral data analysis in agricultural applications.
 
 ## Contact
+
 
 For questions regarding MSANet implementation or agricultural applications, please open an issue on this repository.
